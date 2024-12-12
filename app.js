@@ -50,14 +50,14 @@ const songs = [
         cover: "Ghost Stories"
     },
     {
-        song: "Charlie Brown",
-        album: "Mylo Xyloto",
-        cover: "Mylo Xyloto"
-    },
-    {
         song: "Adventure Of A Lifetime",
         album: "A Head Full of Dreams",
         cover: "A Head Full of Dreams"
+    },
+    {
+        song: "Charlie Brown",
+        album: "Mylo Xyloto",
+        cover: "Mylo Xyloto"
     },
     {
         song: "feelslikeimfallinginlove",

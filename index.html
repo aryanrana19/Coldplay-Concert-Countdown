@@ -1,70 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown App</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
-
 <body>
-
+  
     <div class="year" id="year"></div>
 
-    <h1>Coldplay Concert</h1>
+    <h1>Coldplay Concert 2025</h1>
     <div class="countdown" id="countdown">
-        <div class="time">
-            <h2 id="days">00</h2>
-            <small>days</small>
-        </div>
-        <div class="time">
-            <h2 id="hours">00</h2>
-            <small>hours</small>
-        </div>
-        <div class="time">
-            <h2 id="minutes">00</h2>
-            <small>minutes</small>
-        </div>
-        <div class="time">
-            <h2 id="seconds">00</h2>
-            <small>seconds</small>
-        </div>
+      <div class="time">
+        <h2 id="days">00</h2>
+        <small>days</small>
+      </div>
+      <div class="time">
+        <h2 id="hours">00</h2>
+        <small>hours</small>
+      </div>
+      <div class="time">
+        <h2 id="minutes">00</h2>
+        <small>minutes</small>
+      </div>
+      <div class="time">
+        <h2 id="seconds">00</h2>
+        <small>seconds</small>
+      </div>
     </div>
 
     <!-- MUSIC PLAYER -->
     <div class="music-menu-container">
-        <div id="music-container" class="music-container">
-            <div class="music-info">
-                <h4 id="title"></h4>
-                <h5 id="album"></h5>
-                <div class="progress-container" id="progress-container">
-                    <div class="progress" id="progress"></div>
-                </div>
-            </div>
-
-            <audio src="assets/Everglow.jpg" id="audio"></audio>
-            <div class="img-container">
-                <img src="assets/Everglow.jpg" alt="music-cover" id="cover">
-            </div>
-            <div class="navigation">
-                <button id="prev" class="action-btn">
-                    <i class="fa fa-backward"></i>
-                </button>
-                <button id="play" class="action-button action-btn-big">
-                    <i class="fa fa-play"></i>
-                </button>
-                <button id="next" class="action-btn">
-                    <i class="fa fa-forward"></i>
-                </button>
-            </div>
+      <div id="music-container" class="music-container">
+        <div class="music-info">
+          <h4 id="title"></h4>
+          <h5 id="album"></h5>
+          <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+          </div>
         </div>
+      
+        <audio src="assets/Everglow.jpg" id="audio"></audio>
+        <div class="img-container">
+          <img src="assets/Everglow.jpg" alt="music-cover" id="cover">
+        </div>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fa fa-backward"></i>
+          </button>
+          <button id="play" class="action-button action-btn-big">
+            <i class="fa fa-play fa-2x";></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fa fa-forward"></i>
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="app.js"></script>
 </body>
-
 </html>
