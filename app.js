@@ -173,3 +173,9 @@ progressContainer.addEventListener('click', setProgress)
 
 // SONG ENDS
 audio.addEventListener("ended", nextSong)
+
+
+// ======================================================================================
+// WORK UNDER PROGRESS TAB
+
+const marquee = document.getElementById("marquee")

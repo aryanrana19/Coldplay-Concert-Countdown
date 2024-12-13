@@ -220,8 +220,30 @@ body * {
     transition: width 0.1s linear;
 }
 
+
+
+
+
+
+/* WORK UNDER PROGRESS */
+.mobile-only {
+    display: none;
+}
+
+
+
 /* MEDIA QUERY */
-@media(max-width: 425px){
+@media(max-width: 599px){
+
+
+    .mobile-only{
+        display: block;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #fff;
+        z-index: 1000;
+    }
+
     body {
         background-image: url(/assets/3.jpg);
         background-size: auto;
@@ -235,6 +257,7 @@ body * {
         text-align: center;
         overflow: hidden;
         margin: 0;
+        /* display: none; */
     }
     body::after {
         content: '';
@@ -245,7 +268,7 @@ body * {
         height: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         margin: 0;
-        display: none;
+        /* display: none; */
     }
     .countdown-container {
         /* background-color: #000; */
@@ -255,11 +278,24 @@ body * {
         flex-flow: column;
         justify-content: center;
         align-items: center;
+        display: none;
     }
     .countdown{
         
     }
+    .music-container{
+        display: none;
+    }
     .countdown-container h1{
         font-size: 3rem;
     }
+
+    
 }
+
+
+
+
+
+
+
