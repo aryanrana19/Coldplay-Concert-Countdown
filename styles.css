@@ -37,13 +37,27 @@ body * {
     z-index: 1;
 }
 
-h1 {
+/* h1 {
     font-size: 5rem;
     margin: -80px 0 40px;
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
+} */
+
+.countdown-container{
+    /* background-color: #000; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-container h1{
+    font-size: 4rem;
 }
 
 .countdown {
@@ -62,7 +76,7 @@ h1 {
 /* ====================================================================================== */
 /* MUSIC CONTAINER CSS */
 .music-menu-container {
-    position: absolute;
+    /* position: absolute; */
     /* top: 10px;
     left: 50px; */
     bottom: -60px;
@@ -207,37 +221,3 @@ h1 {
     transition: width 0.1s linear;
 }
 
-@media(max-width: 599px){
-    body h1{
-        font-size: 3rem;
-        display: flex;
-        /* margin: 0 25px 0 25px; */
-    }
-    .countdown{
-        transform: scale(1.25);
-        
-    }
-    .music-container{
-        transform: scale(0.75);
-        
-    }
-}
-
-@media(max-width: 768px){
-    body h1{
-        font-size: 3.5rem;
-        
-    }
-    .countdown{
-        transform: scale(1.5);
-    }
-    .music-menu-container{
-        bottom: 0;
-    }
-    .music-container{
-        position: relative;
-        margin-top: 50px;
-        transform: scale(0.75);
-        width: 100%;
-    }
-}
