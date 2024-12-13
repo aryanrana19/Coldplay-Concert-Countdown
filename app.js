@@ -45,29 +45,24 @@ const cover = document.getElementById('cover')
 
 const songs = [
     {
+        song: "A Sky Full Of Stars",
+        album: "Ghost Stories",
+        cover: "Ghost Stories"
+    },
+    {
         song: "Adventure Of A Lifetime",
         album: "A Head Full of Dreams",
         cover: "A Head Full of Dreams"
-    },
-    {
-        song: "Charlie Brown",
-        album: "Mylo Xyloto",
-        cover: "Mylo Xyloto"
-    },
+    }, 
     {
         song: "feelslikeimfallinginlove",
         album: "Moon Music",
         cover: "Moon Music"
     },
     {
-        song: "Viva La Vida",
+        song: "Viva la Vida",
         album: "Viva la Vida or Death and All his friends",
         cover: "Viva la Vida or Death and All his friends"
-    },
-    {
-        song: "A Sky Full of Stars",
-        album: "Ghost Stories",
-        cover: "Ghost Stories"
     },
     {
         song: "The Scientist",
@@ -75,7 +70,12 @@ const songs = [
         cover: "A Rush of Blood to the Head"
     },
     {
-        song: "Hymn for the Weekend",
+        song: "Charlie Brown",
+        album: "Mylo Xyloto",
+        cover: "Mylo Xyloto"
+    },
+    {
+        song: "Hymn For The Weekend",
         album: "A Head Full of Dreams",
         cover: "A Head Full of Dreams"
     },
