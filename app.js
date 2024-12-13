@@ -45,11 +45,6 @@ const cover = document.getElementById('cover')
 
 const songs = [
     {
-        song: "A Sky Full of Stars",
-        album: "Ghost Stories",
-        cover: "Ghost Stories"
-    },
-    {
         song: "Adventure Of A Lifetime",
         album: "A Head Full of Dreams",
         cover: "A Head Full of Dreams"
@@ -68,6 +63,11 @@ const songs = [
         song: "Viva La Vida",
         album: "Viva la Vida or Death and All his friends",
         cover: "Viva la Vida or Death and All his friends"
+    },
+    {
+        song: "A Sky Full of Stars",
+        album: "Ghost Stories",
+        cover: "Ghost Stories"
     },
     {
         song: "The Scientist",
