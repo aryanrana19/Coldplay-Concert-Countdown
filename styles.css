@@ -211,7 +211,7 @@ h1 {
     body h1{
         font-size: 3rem;
         display: flex;
-        margin: 0 25px 0 25px;
+        /* margin: 0 25px 0 25px; */
     }
     .countdown{
         transform: scale(1.25);
@@ -220,5 +220,24 @@ h1 {
     .music-container{
         transform: scale(0.75);
         
+    }
+}
+
+@media(max-width: 768px){
+    body h1{
+        font-size: 3.5rem;
+        
+    }
+    .countdown{
+        transform: scale(1.5);
+    }
+    .music-menu-container{
+        bottom: 0;
+    }
+    .music-container{
+        position: relative;
+        margin-top: 50px;
+        transform: scale(0.75);
+        width: 100%;
     }
 }
